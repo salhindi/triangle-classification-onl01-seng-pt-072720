@@ -10,8 +10,8 @@ class Triangle
   def kind()
   if @side_a == @side_b && @side_a == @side_c && @side_c == @side_a
     :equilateral
-  elsif (@side_a == @side_b) || (@side_a == @side_c) || (@side_c == @side_a)
-    :isosceles
+  elsif (@side_a == @side_b) || (@side_a == @side_c) || (@side_c == @side_b)
+  :isosceles
   end
 end
       class TriangleError < StandardError
