@@ -1,7 +1,7 @@
 class Triangle
   attr_accessor :side_a, :side_b, :side_c
   
-  def initialize(side_a:, side_b:, side_c:)
+  def initialize(side_a, side_b, side_c)
     @side_a= side_a
     @side_b= side_b
     @side_c= side_c
@@ -10,7 +10,7 @@ class Triangle
       
   
   
-  def kind(side_a:, side_b:, side_c:)
+  def kind()
   end
 end
       #isosceles 2 equal sides
