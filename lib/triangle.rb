@@ -8,6 +8,8 @@ class Triangle
   
   def kind(equilateral, isosceles, scalene)
     if self != 
+      #isosceles 2 equal sides
+      #
 end
     
 end
