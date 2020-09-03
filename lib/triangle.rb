@@ -14,7 +14,7 @@ class Triangle
       class TriangleError < StandardError
     end
   end
-end
+
       #isosceles 2 equal sides
       #equilateral 3 equal sides 
       #scalene no equal sides
