@@ -7,10 +7,8 @@ class Triangle
     @side_c= side_c
   end
     
-      
-  
-  
   def kind()
+  
   end
 end
       #isosceles 2 equal sides
