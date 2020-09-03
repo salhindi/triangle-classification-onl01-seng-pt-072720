@@ -11,11 +11,10 @@ class Triangle
     if @side_a == @side_b && @side_a == @side_c && @side_c == @side_a
       :equilateral
     elsif @side_a == @side_b || @side_a == @side_c || @side_c == @side_b
-    :isosceles
+      :isosceles
     elsif @side_a != @side_b && @side_b != @side_c && @side_c != @side_a
-    :scalene
-  end
-  
+      :scalene
+    end
   end
 end
 
