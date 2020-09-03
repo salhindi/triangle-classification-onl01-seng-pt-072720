@@ -10,6 +10,7 @@ class Triangle
   def kind()
   if @side_a == @side_b || @side_a == @side_c || @side_c == @side_a
     :equilateral
+  else if @side_a == @side_c || @
   end
 end
       class TriangleError < StandardError
