@@ -10,7 +10,8 @@ class Triangle
       
   
   
-  def kind(equilateral, isosceles, scalene)
+  def kind(side_a:, side_b:, side_c:)
+  end
 end
       #isosceles 2 equal sides
       #equilateral 3 equal sides 
