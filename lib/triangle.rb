@@ -8,7 +8,8 @@ class Triangle
   end
     
   def kind()
-  
+  if side_a != side_b || side_a != side_c || side_c != side_a
+    return 
   end
 end
       #isosceles 2 equal sides
