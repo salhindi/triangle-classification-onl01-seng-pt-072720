@@ -6,7 +6,8 @@ class Triangle
     attributes.each {|key, value| self.send(("#{key}="), value)}
   end
   
-  def kind
+  def kind(equilateral, isosceles, scalene)
+    if self != 
 end
     
 end
