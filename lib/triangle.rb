@@ -10,7 +10,9 @@ class Triangle
   def kind()
   if side_a != side_b || side_a != side_c || side_c != side_a
     return TriangleError
+  end
       class TriangleError < StandardError
+    end
   end
 end
       #isosceles 2 equal sides
