@@ -19,6 +19,7 @@ class Triangle
     end
   end
    class TriangleError < StandardError
+     @side_a <= 0 && @side_b <= 0 && @side_c <= 0 
    end
 end
 
