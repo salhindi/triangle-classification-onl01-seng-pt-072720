@@ -10,7 +10,7 @@ class Triangle
     if self != 
       #isosceles 2 equal sides
       #equilateral 3 equal sides 
-      #
+      #scalene no equal sides
 end
     
 end
