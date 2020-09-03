@@ -19,9 +19,6 @@ end
   end
 end
 end
-      class TriangleError < StandardError
-    end
-  end
 
       #isosceles 2 equal sides
       #equilateral 3 equal sides 
